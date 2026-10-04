@@ -1,0 +1,12 @@
+title: Lennart Schultz
+description: between Science & Art
+url: https://chiefyy.github.io
+markdown: kramdown
+permalink: /:categories/:title/
+exclude: [README.md, Gemfile, Gemfile.lock]
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

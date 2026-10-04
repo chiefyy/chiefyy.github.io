@@ -1,0 +1,6 @@
+---
+layout: default
+title: Essays
+permalink: /category/essays/
+---
+<section class="page"><h1>Essays</h1><div class="post-list">{% assign entries = site.categories.essays %}{% for post in entries %}<article><time>{{ post.date | date: "%d %B %Y" }}</time><h2><a href="{{ post.url }}">{{ post.title | escape }}</a></h2>{{ post.excerpt }}</article>{% else %}<p>No posts yet.</p>{% endfor %}</div></section>
